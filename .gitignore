@@ -21,3 +21,6 @@ pnpm-debug.log*
 *.sln
 *.sw?
 /yarn.lock
+
+# 用zip打包的编译文件
+water-sys-front-end-*-dist.zip
