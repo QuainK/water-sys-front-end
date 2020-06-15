@@ -104,7 +104,7 @@ main.js 是 Vue 的主入口，加载 vue 以及全局依赖，并将根组件 A
 
 #### 2.2 assets
 
-资源文件，存放图片、CSS 和 JavaScript 等。
+资源文件，存放图片、CSS 等。
 
 ---
 
