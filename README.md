@@ -36,19 +36,29 @@
 
 ## 三、使用方法
 
-检查根目录的包依赖配置文件 package.json，安装必需的依赖。
+### 1. 必须检查
 
-```
-yarn install
-```
+1. 检查根目录的包依赖配置文件 package.json，安装必需的依赖。
 
-或者
+   ```
+   yarn install
+   ```
 
-```
-npm install
-```
+   或者
 
-### 1. 开发环境
+   ```
+   npm install
+   ```
+
+2. 高德地图 API 的开发者密钥（key）存放于
+
+   > /src/store/index.js
+
+   中的 mapApiKey 变量。
+
+   **<span style="color: red">请申请开发者密钥（key）后覆盖此变量再使用。</span>**
+
+### 2. 开发环境
 
 默认端口是从 8080 往后延续选择未被占用的端口。
 
@@ -62,7 +72,7 @@ yarn serve
 npm run serve
 ```
 
-### 2. 生产环境
+### 3. 生产环境
 
 编译后的文件位于 /dist。
 
